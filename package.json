@@ -1,0 +1,11 @@
+{
+  "name": "audio-node-flow",
+  "version": "1.0.0",
+  "description": "Flow control library for Web Audio API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "azu",
+  "license": "MIT"
+}
