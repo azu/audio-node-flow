@@ -1,8 +1,9 @@
 {
   "name": "audio-node-flow",
+  "keywords":["WebAudioAPI","audio","flow"],
   "version": "1.0.1",
-  "description": "Flow control library for Web Audio API",
-  "main": "index.js",
+  "description": "Flow control library for Web Audio API.",
+  "main": "lib/audio-node-flow.js",
   "scripts": {
     "test": "mocha"
   },
