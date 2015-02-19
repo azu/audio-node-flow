@@ -13,6 +13,8 @@ function createSE(i) {
 var oscs = [1, 3, 5, 7, 9, 15].map(function (i) {
     return createSE(i);
 });
+var gainNodeList = [context.createGain(), context.createGain(), context.createGain()];
 new AudioNodeFlow(oscs)
+    .sequence(gainNodeList)
     .connect(gainNode)
     .connect(context.destination);
