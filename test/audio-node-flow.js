@@ -53,7 +53,7 @@ describe("audio-node-flow", function() {
       });
     });
   });
-  describe("connects", function() {
+  describe("connectAll", function() {
     context("(nodeList: AudioNode[]): AudioNodeFlow", function() {
       it("should connect the source to nodeList", function() {
         var osc1 = audioContext.createOscillator();
@@ -72,7 +72,7 @@ describe("audio-node-flow", function() {
 
         var flow = new AudioNodeFlow([ osc1, osc2 ]);
 
-        var result = flow.connects([ gain1, gain2 ]).connect(audioContext.destination);
+        var result = flow.connectAll([ gain1, gain2 ]).connect(audioContext.destination);
 
         assert(result instanceof AudioNodeFlow);
 
