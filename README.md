@@ -9,8 +9,8 @@ flow control library for Web Audio API.
 ## Usage
 
 ```js
-var flow = require("audio-node-flow");
-flow(source)
+var AudioNodeFlow = require("audio-node-flow").AudioNodeFlow;
+new AudioNodeFlow(source)
     .connect(node)
     .connects([node, node])
     .connect(context.destination);
