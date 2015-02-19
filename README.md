@@ -12,7 +12,7 @@ flow control library for Web Audio API.
 var AudioNodeFlow = require("audio-node-flow").AudioNodeFlow;
 new AudioNodeFlow(source)
     .connect(node)
-    .connects([node, node])
+    .connectAll([node, node])
     .connect(context.destination);
 ```
 
