@@ -5,7 +5,7 @@
     "audio",
     "flow"
   ],
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Flow control library for Web Audio API.",
   "main": "lib/audio-node-flow.js",
   "scripts": {
