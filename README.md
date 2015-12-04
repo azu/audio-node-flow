@@ -32,6 +32,11 @@ new AudioNodeFlow(source)
 npm test
 ```
 
+## Related
+
+- :new: [AudioNode.connect(AudioNode)](https://developer.mozilla.org/en-US/docs/Web/API/AudioNode/connect(AudioNode) "AudioNode.connect(AudioNode)")
+- [Web Audio Method Chaining Sample](https://googlechrome.github.io/samples/webaudio-method-chaining/index.html "Web Audio Method Chaining Sample")
+
 ## Contributing
 
 1. Fork it!
